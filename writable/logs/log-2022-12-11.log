@@ -1,0 +1,6 @@
+CRITICAL - 2022-12-11 00:12:27 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl')
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(28): require('/home/99/syd160...')
+#4 {main}

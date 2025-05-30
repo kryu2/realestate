@@ -1,0 +1,228 @@
+CRITICAL - 2025-01-20 20:24:22 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::_escapeString() must be of the type string, null given, called in /home/99/syd1601/services.dreamhive.co.jp/realestate/system/Database/BaseConnection.php on line 1226
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/Database/BaseConnection.php(1226): CodeIgniter\Database\MySQLi\Connection->_escapeString(NULL)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/Database/BaseConnection.php(1260): CodeIgniter\Database\BaseConnection->escapeString(NULL, true)
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/RosenkaModel.php(31): CodeIgniter\Database\BaseConnection->escapeLikeString(NULL)
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Rosenka.php(66): App\Models\RosenkaModel->getCount(NULL)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Rosenka->getRosenka()
+#5 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rosenka))
+#6 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-20 22:28:27 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:28:29 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:28:34 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:28:38 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:28:39 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:28:51 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:28:55 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:06 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:07 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:11 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:11 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:14 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:18 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:18 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:24 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:25 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:28 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:29 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:33 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:34 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:37 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:37 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:42 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:45 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:47 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:29:51 --> A non-numeric value encountered
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/99/syd160...', 33, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-01-20 22:30:06 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/home/99/syd160...', 353, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/IntegrationModel.php(353): count('0')
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/IntegrationModel.php(368): App\Models\IntegrationModel->getBuildingPrice()
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/IntegrationModel.php(124): App\Models\IntegrationModel->getCurrentPrice()
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/IntegrationModel.php(292): App\Models\IntegrationModel->setParams(Array)
+#5 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(53): App\Models\IntegrationModel->getResults(Array)
+#6 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#7 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-20 22:30:07 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/home/99/syd160...', 353, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/IntegrationModel.php(353): count('0')
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/IntegrationModel.php(368): App\Models\IntegrationModel->getBuildingPrice()
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/IntegrationModel.php(124): App\Models\IntegrationModel->getCurrentPrice()
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/IntegrationModel.php(292): App\Models\IntegrationModel->setParams(Array)
+#5 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(53): App\Models\IntegrationModel->getResults(Array)
+#6 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#7 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-20 22:30:10 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/home/99/syd160...', 353, Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/IntegrationModel.php(353): count('0')
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/IntegrationModel.php(368): App\Models\IntegrationModel->getBuildingPrice()
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/IntegrationModel.php(124): App\Models\IntegrationModel->getCurrentPrice()
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/IntegrationModel.php(292): App\Models\IntegrationModel->setParams(Array)
+#5 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(53): App\Models\IntegrationModel->getResults(Array)
+#6 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#7 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#8 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

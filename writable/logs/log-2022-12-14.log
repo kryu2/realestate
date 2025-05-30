@@ -1,0 +1,8 @@
+CRITICAL - 2022-12-14 08:28:50 --> Class 'App\Models\Exception' not found
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/IntegrationModel.php(292): App\Models\IntegrationModel->setParams(Array)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Evaluation.php(53): App\Models\IntegrationModel->getResults(Array)
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Evaluation->getEvaluationValues()
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Evaluation))
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

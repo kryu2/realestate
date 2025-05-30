@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+/* --COMMON SEETING ------------------------------------------- */
+*{
+    font-family:/*'ヒラギノ角ゴ Pro W3',*/'ＭＳ Ｐゴシック',meiryo,sans-serif;
+    color:#444444;
+    font-size:12px;
+}
+
+body{padding:0px;margin:12px;}
+
+h2,h3,h4,p,dt,dd{text-align:left;}
+
+p,dt{font-size:12px;}
+
+form{margin:0px;}
+
+/*h1,p#head-text,#lead-block,#contents,.ad-banner,#footer    {    width:760px;    }*/
+
+.clearfix:after {
+    content:".";
+    display: block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+
+.clearfix{    zoom:1;/*for IE 5.5-7*/    }
+
+.clear    {
+    clear:both;
+    font-size: 1px;
+    line-height: 0;
+}
+
+h1,p#head-text,#lead-block,#contents,.ad-banner,#footer    {
+    /*text-align:center;*/
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.corp-color    {    color:#396F8F;    }
+
+.small-text    {    font-size:10px;    }
+
+a    {    color:#396F8F;    }
+a:hover    {    color:#EE8A1D;    }
+
+
+#dbar{border-bottom:1px solid #ddddff;padding-bottom:8px;}
+#dbar a{margin-right:0.5em;}
+#contents{}
+
+
+/* --HEADER SEETING ------------------------------------------- */
+h1    {
+    /*height:45px;*/
+    color:white;
+    font-size: 18px;
+    font-weight:bold;
+    margin-top:24px;
+    padding:4px 8px;
+    line-height: 1.5em;
+    background-color: #424f6b;
+    /*margin-top:5px;
+    margin-bottom:0;*/
+    /*text-indent: -9999px;
+    background-image:url(../images/header.gif);
+    background-repeat:no-repeat;
+    background-position:left bottom;*/
+    position:relative;
+}
+
+h1 a    {
+    width:120px;
+    height:30px;
+    display:block;
+    font-size: 1px;
+    line-height: 0;
+    text-indent: -9999px;
+    background-image:url(../images/a-logo.gif);
+    background-repeat:no-repeat;
+    background-position:left top;
+    text-decoration:none;
+    overflow:hidden;
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+
+h1 a:hover    {
+    opacity:0.3; 
+    filter: alpha(opacity=30); 
+}
+
+p#head-text    {
+    height:170px;
+    margin-top:0;
+    margin-bottom:0;
+    font-size: 1px;
+    line-height: 0;
+    margin-top:0;
+    text-indent: -9999px;
+    background-image:url(../images/top.jpg);
+    background-repeat:no-repeat;
+    background-position:left bottom;
+}
+
+/* --CONTENTS SEETING ------------------------------------------- */
+#contents{
+    padding:0;
+    background-image:url(../images/back.gif);
+    background-repeat:repeat-y;
+    background-position:left bottom;
+}
+
+#contents h2{
+    font-size: 14px;
+    line-height: 1.5em;
+    border-bottom: 1px solid #444466;
+}
+
+#contents h3{
+    color: #444488;
+    font-size: 14px;
+    position:relative;
+    margin-bottom:6px;
+}
+
+#contents h4{
+    font-size: 12px;
+    position:relative;
+    margin-bottom:2px;
+}
+
+#contents dl,#contents dt    {
+    display:block;
+    width:240px;
+}
+
+#contents .caution{
+    color:red;
+}
+
+#contents .check{
+    color:blue;
+}
+
+#contents td .unsatisfy{
+    background-color:#ffbbaa;
+    text-align:center;
+}
+
+#contents td .average{
+    background-color:white;
+    text-align:center;
+}
+
+#contents td .good{
+    background-color:#ddffff;
+    text-align:center;
+}
+
+#contents td .great{
+    background-color:#fffaaa;
+    text-align:center;
+}
+
+* html #contents .section {
+    margin-top: 30px;
+}
+
+*+html #contents .section {
+    margin-top: 30px;
+}
+
+#contents .sectionText {
+    margin-left: 40px;
+}
+
+#contents .formArea {
+    text-align: left;
+    margin-left: 40px;
+}
+
+
+/* --AD BANNER SEETING ------------------------------------------- */
+.ad-banner    {
+    display:block;
+    padding-top:20px;
+    padding-bottom:38px;
+    background-image:url(../images/back.gif);
+    background-repeat:repeat-y;
+    background-position:left top;
+
+}
+
+/* --FOOTER SEETING ------------------------------------------- */
+#footer    {
+    padding-bottom:20px;
+    background-image:url(../images/footer.gif);
+    background-repeat:no-repeat;
+    background-position:left top;
+}
+
+#footer p    {
+    position:relative;
+    top:10px;
+    left:10px;
+    margin:0 0 5px 0;
+}

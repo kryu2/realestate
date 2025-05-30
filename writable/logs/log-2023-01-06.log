@@ -1,0 +1,20 @@
+CRITICAL - 2023-01-06 13:15:35 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::_escapeString() must be of the type string, null given, called in /home/99/syd1601/services.dreamhive.co.jp/realestate/system/Database/BaseConnection.php on line 1226
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/Database/BaseConnection.php(1226): CodeIgniter\Database\MySQLi\Connection->_escapeString(NULL)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/Database/BaseConnection.php(1260): CodeIgniter\Database\BaseConnection->escapeString(NULL, true)
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/RosenkaModel.php(31): CodeIgniter\Database\BaseConnection->escapeLikeString(NULL)
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Rosenka.php(66): App\Models\RosenkaModel->getCount(NULL)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Rosenka->getRosenka()
+#5 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rosenka))
+#6 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-06 16:00:00 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::_escapeString() must be of the type string, null given, called in /home/99/syd1601/services.dreamhive.co.jp/realestate/system/Database/BaseConnection.php on line 1226
+#0 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/Database/BaseConnection.php(1226): CodeIgniter\Database\MySQLi\Connection->_escapeString(NULL)
+#1 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/Database/BaseConnection.php(1260): CodeIgniter\Database\BaseConnection->escapeString(NULL, true)
+#2 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Models/RosenkaModel.php(31): CodeIgniter\Database\BaseConnection->escapeLikeString(NULL)
+#3 /home/99/syd1601/services.dreamhive.co.jp/realestate/app/Controllers/Rosenka.php(66): App\Models\RosenkaModel->getCount(NULL)
+#4 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(832): App\Controllers\Rosenka->getRosenka()
+#5 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rosenka))
+#6 /home/99/syd1601/services.dreamhive.co.jp/realestate/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/99/syd1601/services.dreamhive.co.jp/realestate/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
